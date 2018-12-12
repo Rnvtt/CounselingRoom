@@ -1,0 +1,5 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+<image class='main_index' src='/asset/img/main_index.jpg'></image>
+<button class='btn'> 立即预约 </button>
+</view>

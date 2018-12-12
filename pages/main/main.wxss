@@ -1,0 +1,9 @@
+/* pages/main/main.wxss */
+.main_index{
+  width: 500rpx;
+  height: 400rpx;
+}
+
+.btn{
+  margin-top: 100rpx;
+}
