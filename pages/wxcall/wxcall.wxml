@@ -1,0 +1,25 @@
+<!--pages/wxcall/wxcall.wxml-->
+<view class='container'>
+  <image class="bkg" src="http://427740.s81i.faiusr.com/2/101/AFEI3I0aEAIYACCg5b7jBSjqnof2AzDuBTjoAkBl.jpg"></image>
+  <view class='title'>
+    <image class="icon-team" src="../../asset/img/teamicon.png"></image>
+    <text class="title-txt">专业心理咨询师</text>
+  </view>
+  <block wx:for-items="{{carInfoData}}">
+    <view class='card' id="{{item.id}}">
+      <view class='nearCard-fl'>
+        <image src='{{item.imgurl}}'></image>
+      </view>
+      <view class='nearCard-fr'>
+        <view class='line'>
+          <text class='text'>{{item.name}}</text>
+          <text class='description'>{{item.description}}</text>
+        </view>
+        <view class='line'>
+          <text class='text'>微信号：</text>
+          <text class='text'>{{item.wx}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

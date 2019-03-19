@@ -1,0 +1,50 @@
+<!--pages/video.wxml-->
+<view class="image-parent">
+  <image class='image' mode='widthFix' src='http://419090.s81i.faiusr.com/2/101/AFEIksoZEAIYACDxl7njBSiHtZn7BzDuBTjoAkBl.jpg'></image>
+  <view class="child">
+    <text class='title'>—— 视频课程辅导 ——</text>
+  </view>
+  <view class="wangqi">
+    <text class='wangqi-txt'>— 往期视频 —</text>
+  </view>
+  
+  <view class="cardBox">
+      <view class="headerBox">
+        <image class="cover-img" src='http://88853.s81i.faiusr.com/2/103/AFEIlbYFEAIYACDKgKzWBSiP8vmdBjDKAjjcAUBn.jpg'></image>
+      </view>
+      <view class="bodyBox">
+          <text class='video-name'>气质养成</text>
+          <text class='video-date'>\t2019-02-14</text>
+      </view>
+  </view>
+
+  <view class="cardBox">
+      <view class="headerBox">
+        <image class="cover-img" src='http://88853.s81i.faiusr.com/2/103/AFEIlbYFEAIYACDOgKzWBSjazM7ZBjDKAjjcAUBn.jpg'></image>
+      </view>
+      <view class="bodyBox">
+          <text class='video-name'>压力缓解</text>
+          <text class='video-date'>\t2019-03-11</text>
+      </view>
+  </view>
+
+  <view class="cardBox">
+      <view class="headerBox">
+        <image class="cover-img" src='http://88853.s81i.faiusr.com/2/103/AFEIlbYFEAIYACDOgKzWBSjazM7ZBjDKAjjcAUBn.jpg'></image>
+      </view>
+      <view class="bodyBox">
+          <text class='video-name'>家庭调节</text>
+          <text class='video-date'>\t2019-03-18</text>
+      </view>
+  </view>
+
+  <view class="cardBox">
+      <view class="headerBox">
+        <image class="cover-img" src='http://88853.s81i.faiusr.com/2/103/AFEIlbYFEAIYACDPgKzWBSjo2O7jAjDKAjjcAUBn.jpg'></image>
+      </view>
+      <view class="bodyBox">
+          <text class='video-name'>儿童教育</text>
+          <text class='video-date'>\t2019-03-22</text>
+      </view>
+  </view>
+</view>

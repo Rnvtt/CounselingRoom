@@ -1,6 +1,10 @@
 {
   "pages": [
     "pages/main/main",
+    "pages/samples/samples",
+    "pages/article/article",
+    "pages/wxcall/wxcall",
+    "pages/video/video",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -9,5 +13,42 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#f5b43e",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "/asset/img/articleon.png",
+        "iconPath": "/asset/img/articleoff.png",
+        "pagePath": "pages/article/article",
+        "text": "深度好文"
+      },
+      {
+        "selectedIconPath": "/asset/img/videoon.png",
+        "iconPath": "/asset/img/videooff.png",
+        "pagePath": "pages/video/video",
+        "text": "视频课"
+      },
+      {
+        "selectedIconPath": "/asset/img/mainon.png",
+        "iconPath": "/asset/img/mainoff.png",
+        "pagePath": "pages/main/main",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/asset/img/sampleson.png",
+        "iconPath": "/asset/img/samplesoff.png",
+        "pagePath": "pages/samples/samples",
+        "text": "案例再现"
+      },
+      {
+        "selectedIconPath": "/asset/img/wxon.png",
+        "iconPath": "/asset/img/wxoff.png",
+        "pagePath": "pages/wxcall/wxcall",
+        "text": "联系我们"
+      }
+    ]
   }
 }

@@ -1,5 +1,21 @@
 <!--pages/main/main.wxml-->
 <view class="container">
-<image class='main_index' src='/asset/img/main_index.jpg'></image>
-<button class='btn'> 立即预约 </button>
+<!--index.wxml--> 
+<view class="empty_custom" style="padding-top:{{statusBarHeight}}px"></view>
+  <text class="welcome-title">欢迎访问沧南监狱心理咨询预约系统</text>
+  <swiper class='swiper' indicator-dots='true' autoplay='true' interval='3000' duration='1000'>
+    <block wx:for='{{expers}}' wx:for-index='index'>
+      <swiper-item >
+          <image class = "image_item" src='{{item.src}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <block wx:for-items="{{carInfoData}}">
+    <view class='card'>
+        <view>
+          <text class='c-green'>{{item.title}}</text>
+          <text class='description'>{{item.detail}}</text>
+        </view>
+    </view>
+  </block>
 </view>
